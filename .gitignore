@@ -1,0 +1,13 @@
+# Antigravity Superpowers & Ultra Local Quarantine
+.agents/
+docs/superpowers/
+docs/plans/
+
+# Python byte code and packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.cache/

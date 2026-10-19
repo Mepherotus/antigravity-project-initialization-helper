@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "antigravity-init"
+version = "0.1.0"
+description = "Zero-dependency setup and ongoing health audit tool for Antigravity workspaces"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+antigravity-init = "antigravity_init.cli:main"
+
+[tool.setuptools.package-data]
+antigravity_init = ["templates/**/*.md"]
